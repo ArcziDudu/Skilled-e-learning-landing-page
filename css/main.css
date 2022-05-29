@@ -1,0 +1,408 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .container {
+  width: 1440px;
+  height: 1845px;
+  padding: 24px 165px;
+  position: relative;
+  overflow: hidden;
+}
+
+body .container .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .container .header .logo {
+  margin-top: 5px;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 45px;
+  color: #13183F;
+  margin-bottom: 185px;
+}
+
+body .container .header .started {
+  background: #13183F;
+  border: none;
+  border-radius: 28px;
+  width: 167px;
+  height: 56px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  cursor: pointer;
+  z-index: 1;
+}
+
+body .container .header .started:hover {
+  background: #666CA3;
+}
+
+body .container .title-box .left {
+  position: absolute;
+  width: 457px;
+  height: 359px;
+  left: 165px;
+  top: 252px;
+}
+
+body .container .title-box .left .title {
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 71px;
+  margin-bottom: 29px;
+}
+
+body .container .title-box .left .text {
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 28px;
+}
+
+body .container .title-box .left .action {
+  margin-top: 40px;
+  background: #13183F;
+  border: none;
+  border-radius: 28px;
+  width: 167px;
+  height: 56px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  cursor: pointer;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.04%, #FF6F48), to(#F02AA6));
+  background: linear-gradient(180deg, #FF6F48 0.04%, #F02AA6 100%);
+}
+
+body .container .title-box .left .action:hover {
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.5))), -webkit-gradient(linear, left top, left bottom, from(#FF6F48), to(#F02AA6));
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+}
+
+body .container .title-box .right {
+  position: absolute;
+  left: 784px;
+  top: -146.13px;
+  width: 991.63px;
+  height: 936.92px;
+  background-image: url("/assets/image-hero-desktop.png");
+  background-size: cover;
+  background-position: right;
+}
+
+body .container .main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  position: absolute;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 1110px;
+  height: 748px;
+  left: 165px;
+  top: 837px;
+  padding-top: 24px;
+}
+
+body .container .main .first {
+  width: 350px;
+  height: 322px;
+  border-radius: 15px;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.04%, #FF6F48), to(#F02AA6));
+  background: linear-gradient(180deg, #FF6F48 0.04%, #F02AA6 100%);
+  padding: 64px 32px 138px;
+}
+
+body .container .main .first .text {
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 40px;
+  color: #ffffff;
+}
+
+body .container .main .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0 32px 40px;
+  width: 350px;
+  height: 322px;
+  background-color: burlywood;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+          box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+  background-color: #ffffff;
+}
+
+body .container .main .box .title {
+  margin-top: 64px;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 30px;
+  color: #13183F;
+  margin-bottom: 24px;
+}
+
+body .container .main .box .text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #83869A;
+  margin-bottom: 24px;
+}
+
+body .container .main .box .down {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #F74780;
+  cursor: pointer;
+}
+
+body .container .main .box .down:hover {
+  color: #FFA7C3;
+}
+
+body .container .main .box .icon {
+  position: absolute;
+  top: -8px;
+  width: 56px;
+  height: 56px;
+}
+
+body .container .main .photography, body .container .main .crypto, body .container .main .busines {
+  position: relative;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+body .container .main .photography .icon, body .container .main .crypto .icon, body .container .main .busines .icon {
+  top: -20px;
+}
+
+body .container .main .animation .text {
+  margin-bottom: 24px;
+}
+
+body .container .main .design .text, body .container .main .photography .text {
+  margin-bottom: 52px;
+}
+
+body .container .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 32px 165px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: absolute;
+  width: 1440px;
+  height: 120px;
+  left: 0px;
+  top: 1725px;
+  background-color: #13183F;
+}
+
+body .container .footer .down {
+  background: #13183F;
+  border: none;
+  border-radius: 28px;
+  width: 167px;
+  height: 56px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  cursor: pointer;
+  background: -webkit-gradient(linear, left top, left bottom, from(#4851FF), color-stop(99.92%, #F02AA6));
+  background: linear-gradient(180deg, #4851FF 0%, #F02AA6 99.92%);
+}
+
+body .container .footer .down:hover {
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.5))), -webkit-gradient(linear, left top, left bottom, color-stop(-54.32%, #4851FF), to(#F02AA6));
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+}
+
+body .container .footer .skilled {
+  margin-top: 12px;
+}
+
+@media (max-width: 992px) {
+  body .container {
+    width: 768px;
+    height: 1845px;
+    background-color: #333;
+    padding: 24px 40px;
+  }
+  body .container .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  body .container .header .logo {
+    margin-top: 7px;
+    font-size: 28px;
+    line-height: 35px;
+  }
+  body .container .header .started {
+    background: #13183F;
+    border: none;
+    border-radius: 28px;
+    width: 167px;
+    height: 56px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #ffffff;
+    cursor: pointer;
+    width: 140px;
+  }
+  body .container .title-box .left {
+    position: absolute;
+    width: 398px;
+    height: 284px;
+    left: 39px;
+    top: 171px;
+  }
+  body .container .title-box .left .title {
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 25px;
+  }
+  body .container .title-box .left .text {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  body .container .title-box .left .action {
+    margin-top: 24px;
+    background: #13183F;
+    border: none;
+    border-radius: 28px;
+    width: 167px;
+    height: 56px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #ffffff;
+    cursor: pointer;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.04%, #FF6F48), to(#F02AA6));
+    background: linear-gradient(180deg, #FF6F48 0.04%, #F02AA6 100%);
+  }
+  body .container .title-box .right {
+    position: absolute;
+    left: 425px;
+    top: -62px;
+    width: 640px;
+    height: 640px;
+    background-image: url("/assets/image-hero-tablet.png");
+    background-size: cover;
+    background-position: right;
+  }
+}
+
+@media (max-width: 768px) {
+  body .container {
+    width: 768px;
+    height: 1845px;
+    background-color: #333;
+    padding: 16px 16px;
+  }
+  body .container .header {
+    height: 48px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  body .container .header .logo {
+    margin-top: 8px;
+    font-size: 28px;
+    line-height: 35px;
+    margin-bottom: 0;
+  }
+  body .container .header .started {
+    background: #13183F;
+    border: none;
+    border-radius: 28px;
+    width: 167px;
+    height: 56px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #ffffff;
+    cursor: pointer;
+    width: 140px;
+    margin-bottom: 38px;
+  }
+  body .container .title-box .left {
+    margin-top: 38px;
+    position: static;
+    width: 343px;
+    height: 284px;
+    left: 16px;
+    top: 0;
+  }
+  body .container .title-box .left .title {
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 26px;
+  }
+  body .container .title-box .left .text {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  body .container .title-box .left .action {
+    margin-top: 24px;
+    background: #13183F;
+    border: none;
+    border-radius: 28px;
+    width: 167px;
+    height: 56px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #ffffff;
+    cursor: pointer;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.04%, #FF6F48), to(#F02AA6));
+    background: linear-gradient(180deg, #FF6F48 0.04%, #F02AA6 100%);
+  }
+  body .container .title-box .right {
+    position: absolute;
+    left: 24px;
+    top: 433px;
+    width: 327px;
+    height: 301px;
+    background-image: url("/assets/image-hero-mobile.png");
+    background-size: cover;
+    background-position: right;
+  }
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,60 @@
+@media(max-width: 768px){
+    body{
+        .container{
+            width: 768px;
+            height: 1845px;
+            background-color: #333;
+            padding: 16px 16px;
+            .header{
+                height: 48px;
+                display: flex;
+                justify-content: space-between;
+                .logo{
+                    margin-top: 8px;
+                    font-size: 28px;
+                    line-height: 35px;
+                    margin-bottom: 0;
+                }
+               .started{
+                   @include Btn;
+                   width: 140px;
+                   margin-bottom: 38px;
+               }
+            }
+            .title-box{
+                .left{
+                    margin-top: 38px;
+                    position: static;
+                    width: 343px;
+                    height: 284px;
+                    left: 16px;
+                    top:0;
+                    .title{
+                        font-size: 40px;
+                        line-height: 50px;
+                       margin-bottom: 26px;
+                    }
+                    .text{                  
+                    font-size: 16px;
+                    line-height: 26px;
+                    }
+                    .action{
+                        margin-top: 24px;
+                        @include Btn;
+                        background: $PinkGradient;
+                    }
+                }
+                .right{
+                    position: absolute;
+                    left: 24px;
+                    top: 433px;
+                    width: 327px;
+                    height: 301px;
+                    background-image: url('/assets/image-hero-mobile.png');
+                    background-size: cover;
+                    background-position: right;
+                }
+            }
+        }
+    }
+    }

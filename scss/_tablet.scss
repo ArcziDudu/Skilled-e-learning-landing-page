@@ -1,0 +1,56 @@
+@media(max-width: 992px){
+body{
+    .container{
+        width: 768px;
+        height: 1845px;
+        background-color: #333;
+        padding: 24px 40px;
+        .header{
+            display: flex;
+            justify-content: space-between;
+            .logo{
+                margin-top: 7px;
+                font-size: 28px;
+                line-height: 35px;
+            }
+           .started{
+               @include Btn;
+               width: 140px;
+           }
+        }
+        .title-box{
+            .left{
+                position: absolute;
+                width: 398px;
+                height: 284px;
+                left: 39px;
+                top: 171px;
+                .title{
+                    font-size: 40px;
+                    line-height: 50px;
+                   margin-bottom: 25px;
+                }
+                .text{                  
+                font-size: 16px;
+                line-height: 26px;
+                }
+                .action{
+                    margin-top: 24px;
+                    @include Btn;
+                    background: $PinkGradient;
+                }
+            }
+            .right{
+                position: absolute;
+                left: 425px;
+                top: -62px;
+                width: 640px;
+                height: 640px;
+                background-image: url('/assets/image-hero-tablet.png');
+                background-size: cover;
+                background-position: right;
+            }
+        }
+    }
+}
+}
